@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="nav.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">  <!--Audiowide Font-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+	<title>Portfolio</title>
+</head>
+	<nav>
+		<input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+    <div class="logo"><a href="#"><img src="images/MeAsf2.jpg"></a></div>
+		<div class="logo"> Sean Jerico L. Centro</div>
+			<ul>
+				<li>
+					<a href="#slider">Projects</a> 
+					<ul class="dropdown">
+						<li><a href="pycodes.html">Python</a></li>
+						<li><a href="javacodes.html">Java</a></li>
+						<li><a href="phpcodes.html">PHP</a></li>
+					</ul>
+				</li>  <!-- href to sliding -->
+				<li><a href="cert.html">Certificates</a> </li>
+				<li><a href="about.html">About Me</a> </li>
+			</ul>
+	</nav>
+<body>
+<section>
+ <div class="slider">
+      <div class="slider-items">
+        <img class="slider-item" src="images/space.jpg" alt="..." />
+        <img class="slider-item" src="images/flix.jpg" alt="..." />
+        <img class="slider-item" src="images/webcrud.jpg" alt="..." />
+      </div>
+
+      <div class="slider-controls">
+        <span class="bx bxs-chevron-left prev" onclick="changeSlide(-1)"></span>
+        <span class="bx bxs-chevron-right next" onclick="changeSlide(1)"></span>
+      </div>
+
+      <div class="slider-indicators">
+        <span onclick="moveTo(1)"></span>
+        <span onclick="moveTo(2)"></span>
+        <span onclick="moveTo(3)"></span>
+      </div>
+
+      <div class="slider-content">
+        <h3>Python</h3>
+        <h3>Java</h3>
+        <h3>PHP</h3>
+      </div>
+    </div>
+</section>
+
+    <!-- JS File -->
+    <script type="text/javascript" src="js/script.js"></script>
+
+
+<footer>
+	<div class="footer-content">
+		<h3>PORTFOLIO</h3>
+		<ul class="socials">
+			<li> <a href="https://www.facebook.com/Kotoamatsukami" target="_blank"><i class="fa fa-facebook"></i> </a> </li>
+			<li> <a href="https://twitter.com/madamadaNgrind" target="_blank"><i class="fa fa-twitter"></i> </a> </li>
+			<li> <a href="https://www.instagram.com/anotherkenpachi/" target="_blank"><i class="fa fa-instagram"></i> </a> </li>
+			<li> <a href="https://www.youtube.com/channel/UCAkwcxMC9j1MS_jFLEyTpqQ" target="_blank"><i class="fa fa-youtube"></i> </a> </li>
+			<li> <a href="https://www.linkedin.com/in/sean-jerico-centro-153422262/" target="_blank"><i class="fa fa-linkedin-square"></i> </a> </li>
+			<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+		</ul>
+	</div>
+	<div class="footer-bottom">
+		<p>copyright &copy; 2023 Sean Berserker. designed by <span>SJC</span></p>
+	</div>
+</footer>
+</body>
+</html>
